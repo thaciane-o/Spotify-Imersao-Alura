@@ -1,0 +1,130 @@
+.sidebar {
+    position: fixed;
+    width: 330px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    padding: 12px;
+    color: #b3b3b3;
+}
+
+.icons {
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    display: grid;
+    gap: 40px;
+    padding: 20px 0 20px 20px;
+}
+
+.sidebar img {
+    width: 30%;
+    cursor: pointer;
+}
+
+.sidebar ul {
+    display: grid;
+    gap: 20px;
+    list-style: none;
+    font-weight: 600;
+}
+
+.sidebar li {
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    color: #fff;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.library .library_content {
+    margin-bottom: 40px;
+}
+
+.library_content .library_text {
+    cursor: pointer;
+    padding-right: 80px;
+    background-color: none;
+}
+
+.library_content:hover {
+    color: #fff;
+}
+
+.library .icons {
+    cursor: pointer;
+}
+
+.library .playlist {
+    background-color: #242424;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.playlist .text {
+    display: flex;
+    min-block-size: 35px;
+}
+
+.playlist .title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.playlist .subtitle {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.playlist .playlist_button {
+    background-color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.library a {
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.library a:hover{
+    text-decoration: underline;
+}
+
+.library .library_button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 600;
+    width: 60%;
+}
+
+.library_button .globe {
+    vertical-align: middle;
+}
