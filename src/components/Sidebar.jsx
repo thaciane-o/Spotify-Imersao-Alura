@@ -1,5 +1,5 @@
 import logo from "./assets/icons/logo-spotify.png";
-import styles from "./Sidebar.css";
+import styles from "./styles/Sidebar.css";
 import { FaHome, FaSearch, FaBook, FaPlus, FaGlobe } from "react-icons/fa";
 
 export const Sidebar = () => {

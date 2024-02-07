@@ -1,7 +1,7 @@
 .sidebar {
     position: fixed;
     width: 330px;
-    height: 85vh;
+    height: 82vh;
     overflow: auto;
     left: 0;
     bottom: 0;
@@ -13,7 +13,7 @@
 .icons {
     width: 30px;
     height: 20px;
-    padding-right: 10px;
+    padding-right: 5px;
     vertical-align: middle;
 }
 
@@ -61,7 +61,7 @@
 
 .library_content .library_text {
     cursor: pointer;
-    padding-right: 80px;
+    padding-right: 91px;
     background-color: none;
 }
 

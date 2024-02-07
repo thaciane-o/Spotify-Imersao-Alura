@@ -1,8 +1,8 @@
-import styles from "./Footer.css";
+import styles from "./styles/Footer.css";
 
 export const Footer = () => {
     return(
-        <div className="footer">
+        <footer className="footer">
             <div className="footer_text">
                 <span className="title">Testar o premium de graça</span>
                 <span className="subtitle">
@@ -11,6 +11,6 @@ export const Footer = () => {
                 </span>
             </div>
             <button className="footer_button">Inscreva-se grátis</button>
-        </div>
+        </footer>
     );
 }
