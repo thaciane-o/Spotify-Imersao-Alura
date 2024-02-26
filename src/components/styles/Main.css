@@ -1,0 +1,223 @@
+.main {
+    background-color: #121212;
+    width: 62rem;
+    height: 100vh;
+    overflow: auto;
+    border-radius: 8px;
+    position: fixed;
+    right: 0;
+    margin: 115px 15px;
+}
+
+/* TITLES */
+.main span {
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main .title {
+    font-size: 30px;
+    padding: 40px 18px;
+}
+
+.main .subtitle {
+    font-size: 25px;
+    padding: 10px 18px;
+}
+
+/* CARDS */
+.cards {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.cards .card {
+    text-decoration: none;
+    width: 195px;
+    height: 180px;
+    margin: 15px 5px 5px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 15px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cards .card1 {
+    background-color: rgb(0, 100, 80);
+}
+
+.cards .card1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/1.jpeg) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}
+
+.cards .card2 {
+    background-color: rgb(132, 0, 231);
+}
+
+.cards .card2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/2.png) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}
+
+.cards .card3 {
+    background-color: rgb(30, 50, 100);
+}
+
+.cards .card3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/3.jpeg) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}
+
+.cards .card4 {
+    background-color: rgb(140, 25, 50);
+}
+
+.cards .card4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/4.jpeg) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}
+
+.cards .card5 {
+    background-color: rgb(232, 17, 91);
+}
+
+.cards .card5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/5.jpeg) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}
+
+.cards .card6 {
+    background-color: rgb(83, 122, 161);
+}
+
+.cards .card6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/6.jpeg) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}
+
+.cards .card7 {
+    background-color: rgb(142, 102, 172);
+}
+
+.cards .card7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/7.jpeg) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}
+
+.cards .card8 {
+    background-color: rgb(20, 138, 8);
+}
+
+.cards .card8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/8.jpeg) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}
+
+.cards .card9 {
+    background-color: rgb(30, 50, 100);
+}
+
+.cards .card9::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/9.jpeg) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}
+
+.cards .card10 {
+    background-color: rgb(233, 20, 41);
+}
+
+.cards .card10::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(25deg)translate(18%, -2%);
+    background: url(../assets/playlist/10.jpeg) no-repeat;
+    background-position: right 8% bottom 25%;
+    background-size: 110px;
+}

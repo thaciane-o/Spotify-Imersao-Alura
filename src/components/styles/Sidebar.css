@@ -17,6 +17,7 @@
     vertical-align: middle;
 }
 
+/* DIVISÃO DA NAVEGAÇÃO */
 .navigation {
     background-color: #121212;
     border-radius: 8px;
@@ -45,6 +46,7 @@
     color: #fff;
 }
 
+/* DIVISÃO DA BIBLIOTECA */
 .library {
     background-color: #121212;
     border-radius: 8px;
@@ -80,30 +82,6 @@
     margin-bottom: 30px;
 }
 
-.playlist .text {
-    display: flex;
-    min-block-size: 35px;
-}
-
-.playlist .title {
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #fff;
-}
-
-.playlist .subtitle {
-    font-weight: 500;
-    font-size: 0.8rem;
-}
-
-.playlist .playlist_button {
-    background-color: #fff;
-    padding: 10px;
-    font-weight: 600;
-    border-radius: 20px;
-    margin-top: 5px;
-}
-
 .library a {
     font-weight: 400;
     font-size: 10px;
@@ -129,4 +107,29 @@
 
 .library_button .globe {
     vertical-align: middle;
+}
+
+/* DIVISÃO DA PLAYLIST */
+.playlist .text {
+    display: flex;
+    min-block-size: 35px;
+}
+
+.playlist .title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.playlist .subtitle {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.playlist .playlist_button {
+    background-color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 5px;
 }

@@ -3,7 +3,7 @@
     right: 0;
     top: 0;
     left: 25%;
-    margin: 12px;
+    margin: 12px 15px 0 15px;
     padding: 16px;
     border-radius: 8px;
     background-color: #121212;
@@ -12,12 +12,16 @@
     align-items: center;
 }
 
+/* SETAS */
 .navbar .navbar_arrows button {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.7);
     margin-right: 16px;
     border-radius: 100%;
+    width: 35px;
+    height: 36px;
 }
 
+/* BARRA DE PESQUISA */
 .navbar .navbar_searchbar {
     background-color: #242424;
     height: 48px;
@@ -50,6 +54,7 @@
     white-space: nowrap;
 }
 
+/* BOTÕES DE LOGIN */
 .navbar .navbar_buttons {
     margin-left: 32%;
 }
