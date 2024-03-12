@@ -1,11 +1,9 @@
 .main {
     background-color: #121212;
-    width: 62rem;
-    height: 100vh;
-    overflow: auto;
-    border-radius: 8px;
     position: fixed;
-    right: 0;
+    left: 344px;
+    height: 500px;
+    border-radius: 8px;
     margin: 115px 15px;
 }
 

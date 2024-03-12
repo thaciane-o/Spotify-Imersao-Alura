@@ -63,8 +63,14 @@
 
 .library_content .library_text {
     cursor: pointer;
-    padding-right: 91px;
+    padding-right: 102px;
     background-color: none;
+}
+
+.library_content .plus_icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 }
 
 .library_content:hover {

@@ -23,7 +23,7 @@ export const Sidebar = () => {
                 <div className="library_content">
                     <span> <FaBook className="icons" /></span>
                     <span className="library_text">Sua biblioteca</span>
-                    <span><FaPlus className="icons" /></span>
+                    <span><FaPlus className="plus_icon" /></span>
                 </div>
 
                 <div className="playlist">
